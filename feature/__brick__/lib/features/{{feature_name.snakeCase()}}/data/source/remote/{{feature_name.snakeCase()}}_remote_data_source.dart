@@ -1,7 +1,7 @@
-import 'package:expense_tracker/core/errors/exception_handler.dart';
-import 'package:expense_tracker/core/network/dio_service/dio_builder.dart';
-import 'package:expense_tracker/core/resources/data_state.dart';
-import 'package:expense_tracker/features/{{feature_name.snakeCase()}}/data/models/{{feature_name.snakeCase()}}_model.dart';
+import 'package:replace_with_project_name/core/errors/exception_handler.dart';
+import 'package:replace_with_project_name/core/network/dio_service/dio_builder.dart';
+import 'package:replace_with_project_name/core/resources/data_state.dart';
+import 'package:replace_with_project_name/features/{{feature_name.snakeCase()}}/data/models/{{feature_name.snakeCase()}}_model.dart';
 
 abstract interface class {{feature_name.pascalCase()}}RemoteDataSource {
   Future<DioBuilderResponse> dio();

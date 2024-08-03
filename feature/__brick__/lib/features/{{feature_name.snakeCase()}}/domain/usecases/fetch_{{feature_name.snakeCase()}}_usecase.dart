@@ -1,7 +1,7 @@
-import 'package:expense_tracker/core/resources/data_state.dart';
-import 'package:expense_tracker/core/usecases/usecases.dart';
-import 'package:expense_tracker/features/{{feature_name.snakeCase()}}/data/repositories/{{feature_name.snakeCase()}}_repo.dart';
-import 'package:expense_tracker/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
+import 'package:replace_with_project_name/core/resources/data_state.dart';
+import 'package:replace_with_project_name/core/usecases/usecases.dart';
+import 'package:replace_with_project_name/features/{{feature_name.snakeCase()}}/data/repositories/{{feature_name.snakeCase()}}_repo.dart';
+import 'package:replace_with_project_name/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
 
 
 class Fetch{{feature_name.pascalCase()}}Usecase

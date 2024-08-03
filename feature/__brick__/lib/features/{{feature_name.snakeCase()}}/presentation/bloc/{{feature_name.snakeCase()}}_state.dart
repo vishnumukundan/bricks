@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:expense_tracker/core/resources/data_state.dart';
-import 'package:expense_tracker/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
+import 'package:replace_with_project_name/core/resources/data_state.dart';
+import 'package:replace_with_project_name/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
 
 part '{{feature_name.snakeCase()}}_state.freezed.dart';
 
@@ -17,7 +17,7 @@ class {{feature_name.pascalCase()}}State with _${{feature_name.pascalCase()}}Sta
     }) = _Error;
   
   const factory {{feature_name.pascalCase()}}State.success({
-    required DataSuccess<{{feature_name.pascalCase()}}> data,
+    required DataSuccessconst const <{{feature_name.pascalCase()}}> data,
     required bool isLoading,
     }) = _Success;
 }
