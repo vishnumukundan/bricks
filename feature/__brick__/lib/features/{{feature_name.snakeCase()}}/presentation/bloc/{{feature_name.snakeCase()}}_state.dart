@@ -17,7 +17,7 @@ class {{feature_name.pascalCase()}}State with _${{feature_name.pascalCase()}}Sta
     }) = _Error;
   
   const factory {{feature_name.pascalCase()}}State.success({
-    required DataSuccessconst const <{{feature_name.pascalCase()}}> data,
+    required DataSuccess <{{feature_name.pascalCase()}}> data,
     required bool isLoading,
     }) = _Success;
 }
