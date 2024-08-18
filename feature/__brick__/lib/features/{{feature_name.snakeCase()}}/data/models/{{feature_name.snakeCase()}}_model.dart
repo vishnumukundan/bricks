@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:replace_with_project_name/core/util/models/api_response_model.dart';
-import 'package:replace_with_project_name/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
+import 'package:{{project_name}}/core/util/models/api_response_model.dart';
+import 'package:{{project_name}}/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
 
 part '{{feature_name.snakeCase()}}_model.g.dart';
 

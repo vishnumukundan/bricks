@@ -31,11 +31,11 @@ vars:
     description: The name of the feature.
     prompt: What is this feature name?
 
-  bloc_type:
+  state:
     type: enum
-    description: Wheather to use bloc or cubit
-    default: bloc
-    prompt: Select the bloc type to use
+    description: Select state management
+    default: cubit
+    prompt: Which state management you want to use?
     values:
-      - bloc
       - cubit
+      - bloc
