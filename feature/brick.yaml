@@ -8,12 +8,12 @@ description: A new brick created with the Mason CLI.
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.2.2+4
+version: 0.1.0+1
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
 environment:
-  mason: ">=0.1.0-dev.53 <0.1.0"
+  mason: ">=0.1.0-dev.57 <0.2.0"
 
 # Variables specify dynamic values that your brick depends on.
 # Zero or more variables can be specified for a given brick.
@@ -26,16 +26,14 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  feature_name:
+  name:
     type: string
     description: The name of the feature.
-    prompt: What is this feature name?
+    default: counter
+    prompt: What is the name of the feature (example- MyName, my-name, my_name)?
 
-  state:
-    type: enum
-    description: Select state management
-    default: cubit
-    prompt: Which state management you want to use?
-    values:
-      - cubit
-      - bloc
+  # gen_network:
+  #   type: boolean
+  #   description: Should the feature be generated with remote data?
+  #   default: false
+  #   prompt: Does the feature have network requests?
